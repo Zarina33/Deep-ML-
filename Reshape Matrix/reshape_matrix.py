@@ -32,6 +32,7 @@ def reshape_matrix(a: list[list[int|float]], new_shape: tuple[int, int]) -> list
         res = []
         for j in range(new_shape[0]):
             res.append(res[i][j])
+            index +=1
         reshaped.append(res)
     return reshaped 
         
