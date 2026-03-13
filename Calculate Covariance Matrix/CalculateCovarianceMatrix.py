@@ -1,4 +1,8 @@
 """
+Calculate Covariance Matrix
+Easy
+Linear Algebra
+
 Write a Python function to calculate the covariance matrix for a given set of vectors. The function should take a list of lists, where each inner list represents a feature with its observations, and return a covariance matrix as a list of lists.
 Example:
 Input:

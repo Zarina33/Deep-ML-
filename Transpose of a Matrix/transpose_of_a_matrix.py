@@ -1,4 +1,8 @@
 """
+Transpose of a Matrix
+Easy
+Linear Algebra
+
 Write a Python function that computes the transpose of a given 2D matrix. The transpose of a matrix is formed by turning its rows into columns and columns into rows. For an mÃn matrix, the transpose will be an nÃm matrix.
 Example:
 Input:

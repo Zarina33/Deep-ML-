@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-27-blue) ![Easy](https://img.shields.io/badge/Easy-16-brightgreen) ![Medium](https://img.shields.io/badge/Medium-8-orange) ![Hard](https://img.shields.io/badge/Hard-3-red)
+![Problems Solved](https://img.shields.io/badge/Solved-26-blue) ![Easy](https://img.shields.io/badge/Easy-16-brightgreen) ![Medium](https://img.shields.io/badge/Medium-8-orange) ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 ## Problems by Category
 
@@ -37,12 +37,11 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 7 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
 | 8 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
 
-### Deep Learning (2)
+### Deep Learning (1)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|:----------:|----------|
 | 1 | Implement Adam Optimization Algorithm | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Adam%20Optimization%20Algorithm/ImplementAdamOptimizationAlgorithm%D1%8E.py) |
-| 2 | Test Problem Fake | ![Hard](https://img.shields.io/badge/-Hard-red) | [Python](./Test%20Problem%20Fake/test.py) |
 
 ### Probability (3)
 

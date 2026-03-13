@@ -1,5 +1,5 @@
 """
-escriptive Statistics Calculator
+Descriptive Statistics Calculator
 Easy
 Statistics
 

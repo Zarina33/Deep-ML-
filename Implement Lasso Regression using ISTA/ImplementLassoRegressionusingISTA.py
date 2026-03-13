@@ -1,3 +1,8 @@
+"""
+Implement Lasso Regression using ISTA
+Medium
+Machine Learning
+"""
 import numpy as np
 
 def soft_threshold(w, lambda_):

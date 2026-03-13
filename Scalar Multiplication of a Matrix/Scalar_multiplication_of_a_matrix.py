@@ -1,6 +1,7 @@
 """
 Scalar Multiplication of a Matrix
-
+Easy
+Linear Algebra
 
 Write a Python function that multiplies a matrix by a scalar and returns the result.
 Example:
