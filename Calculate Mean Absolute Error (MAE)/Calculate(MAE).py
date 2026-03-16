@@ -16,6 +16,8 @@ The MAE is the mean of absolute differences: (|3-2.5| + |-0.5-0| + |2-2| + |7-8|
 """
 import numpy as np
 def mae (y_true, y_pred):
+    y_true = np.array(y_true).flatten()
+    y_pred = np.array(y_pred).flatten()
     n = len(y_true)
     lol = 0
 
