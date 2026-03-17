@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-29-blue) ![Easy](https://img.shields.io/badge/Easy-19-brightgreen) ![Medium](https://img.shields.io/badge/Medium-8-orange) ![Hard](https://img.shields.io/badge/Hard-2-red)
+![Problems Solved](https://img.shields.io/badge/Solved-30-blue) ![Easy](https://img.shields.io/badge/Easy-20-brightgreen) ![Medium](https://img.shields.io/badge/Medium-8-orange) ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 ## Problems by Category
 
@@ -24,21 +24,22 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 12 | Determinant of a 4x4 Matrix using Laplace's Expansion (hard) | ![Hard](https://img.shields.io/badge/-Hard-red) | [Python](./Determinant%20of%20a%204x4%20Matrix%20using%20Laplace%27s%20Expansion%20%28hard%29/Determinant4x4%20MatrixusingLaplace%27sExpansion.py) |
 | 13 | Singular Value Decomposition (SVD) of 2x2 Matrix | ![Hard](https://img.shields.io/badge/-Hard-red) | [Python](./Singular%20Value%20Decomposition%20%28SVD%29%20of%202x2%20Matrix/SingularValueDecompositionSVDof2x2Matrix.py) |
 
-### Machine Learning (11)
+### Machine Learning (12)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|:----------:|----------|
 | 1 | Calculate Accuracy Score | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Calculate%20Accuracy%20Score/CalculateAccuracyScore.py) |
 | 2 | Calculate Mean Absolute Error (MAE) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Calculate%20Mean%20Absolute%20Error%20%28MAE%29/Calculate%28MAE%29.py) |
 | 3 | Calculate R-squared for Regression Analysis | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Calculate%20R-squared%20for%20Regression%20Analysis/CalculateRsquaredforRegressionAnalysis.py) |
-| 4 | Generate a Confusion Matrix for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Generate%20a%20Confusion%20Matrix%20for%20Binary%20Classification/GenerateConfusionMatrixforBinaryClassification.py) |
-| 5 | Implement F-Score Calculation for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Implement%20F-Score%20Calculation%20for%20Binary%20Classification/Implement%20F-Score%20CalculationforBinaryClassification.py) |
-| 6 | Implement Precision Metric | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Implement%20Precision%20Metric/ImplementPrecisionMetric.py) |
-| 7 | Implement Recall Metric in Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Implement%20Recall%20Metric%20in%20Binary%20Classification/ImplementRecallMetricBinaryClassification.py) |
-| 8 | Linear Regression Using Gradient Descent | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./LinearRegressionUsingGradientDescent/LinearRegressionUsingGradientDescent.py) |
-| 9 | Implement Gradient Descent Variants with MSE Loss | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Gradient%20Descent%20Variants%20with%20MSE%20Loss/GradientDescentVariantswithMSELoss.py) |
-| 10 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
-| 11 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
+| 4 | Calculate Root Mean Square Error (RMSE) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Calculate%20Root%20Mean%20Square%20Error%20%28RMSE%29/CalculateRMSE.py) |
+| 5 | Generate a Confusion Matrix for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Generate%20a%20Confusion%20Matrix%20for%20Binary%20Classification/GenerateConfusionMatrixforBinaryClassification.py) |
+| 6 | Implement F-Score Calculation for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Implement%20F-Score%20Calculation%20for%20Binary%20Classification/Implement%20F-Score%20CalculationforBinaryClassification.py) |
+| 7 | Implement Precision Metric | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Implement%20Precision%20Metric/ImplementPrecisionMetric.py) |
+| 8 | Implement Recall Metric in Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Implement%20Recall%20Metric%20in%20Binary%20Classification/ImplementRecallMetricBinaryClassification.py) |
+| 9 | Linear Regression Using Gradient Descent | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./LinearRegressionUsingGradientDescent/LinearRegressionUsingGradientDescent.py) |
+| 10 | Implement Gradient Descent Variants with MSE Loss | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Gradient%20Descent%20Variants%20with%20MSE%20Loss/GradientDescentVariantswithMSELoss.py) |
+| 11 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
+| 12 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
 
 ### Deep Learning (1)
 
