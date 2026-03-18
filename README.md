@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-30-blue) ![Easy](https://img.shields.io/badge/Easy-20-brightgreen) ![Medium](https://img.shields.io/badge/Medium-8-orange) ![Hard](https://img.shields.io/badge/Hard-2-red)
+![Problems Solved](https://img.shields.io/badge/Solved-31-blue) ![Easy](https://img.shields.io/badge/Easy-20-brightgreen) ![Medium](https://img.shields.io/badge/Medium-9-orange) ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 ## Problems by Category
 
@@ -24,7 +24,7 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 12 | Determinant of a 4x4 Matrix using Laplace's Expansion (hard) | ![Hard](https://img.shields.io/badge/-Hard-red) | [Python](./Determinant%20of%20a%204x4%20Matrix%20using%20Laplace%27s%20Expansion%20%28hard%29/Determinant4x4%20MatrixusingLaplace%27sExpansion.py) |
 | 13 | Singular Value Decomposition (SVD) of 2x2 Matrix | ![Hard](https://img.shields.io/badge/-Hard-red) | [Python](./Singular%20Value%20Decomposition%20%28SVD%29%20of%202x2%20Matrix/SingularValueDecompositionSVDof2x2Matrix.py) |
 
-### Machine Learning (12)
+### Machine Learning (13)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|:----------:|----------|
@@ -38,8 +38,9 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 8 | Implement Recall Metric in Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./Implement%20Recall%20Metric%20in%20Binary%20Classification/ImplementRecallMetricBinaryClassification.py) |
 | 9 | Linear Regression Using Gradient Descent | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | [Python](./LinearRegressionUsingGradientDescent/LinearRegressionUsingGradientDescent.py) |
 | 10 | Implement Gradient Descent Variants with MSE Loss | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Gradient%20Descent%20Variants%20with%20MSE%20Loss/GradientDescentVariantswithMSELoss.py) |
-| 11 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
-| 12 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
+| 11 | Implement K-Fold Cross-Validation | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20K-Fold%20Cross-Validation/ImplementCrossValidation.py) |
+| 12 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
+| 13 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
 
 ### Deep Learning (1)
 
