@@ -56,6 +56,39 @@ def extract_metadata(filepath):
     return {"name": name, "difficulty": difficulty, "category": category}
 
 
+def detect_tech(folder_path, py_content):
+    """Detect technologies used: NumPy, CUDA, PyTorch, etc."""
+    tags = []
+    all_files = os.listdir(folder_path)
+
+    # Check for CUDA files (.cu, .cpp with cuda)
+    cuda_files = [f for f in all_files if f.endswith((".cu", ".cuh"))]
+    cpp_files = [f for f in all_files if f.endswith((".cpp", ".c"))]
+    if cuda_files:
+        tags.append("CUDA")
+    elif cpp_files:
+        # Check if cpp files mention cuda
+        for cf in cpp_files:
+            with open(os.path.join(folder_path, cf), "r", encoding="utf-8", errors="ignore") as f:
+                if "cuda" in f.read().lower():
+                    tags.append("CUDA")
+                    break
+
+    # Check Python content for libraries
+    if "import numpy" in py_content or "from numpy" in py_content:
+        tags.append("NumPy")
+    if "import torch" in py_content or "from torch" in py_content:
+        tags.append("PyTorch")
+    if "import math" in py_content:
+        tags.append("math")
+
+    # If no library detected, it's pure Python
+    if not tags:
+        tags.append("Python")
+
+    return tags
+
+
 def find_solutions():
     """Scan all subdirectories for .py solution files and extract metadata."""
     solutions = []
@@ -81,9 +114,34 @@ def find_solutions():
             print(f"  WARNING: Could not parse metadata from {entry}/{py_file}")
             continue
 
-        # Build relative link with URL encoding
-        rel_path = f"./{urllib.parse.quote(entry)}/{urllib.parse.quote(py_file)}"
-        solutions.append({**metadata, "folder": entry, "file": py_file, "link": rel_path})
+        # Read content for tech detection
+        with open(filepath, "r", encoding="utf-8") as f:
+            py_content = f.read()
+        tags = detect_tech(entry_path, py_content)
+
+        # Build solution links for all files
+        all_files = os.listdir(entry_path)
+        links = []
+        for af in sorted(all_files):
+            ext = os.path.splitext(af)[1]
+            if ext == ".py":
+                label = "Python"
+            elif ext in (".cpp", ".c"):
+                label = "C++"
+            elif ext in (".cu", ".cuh"):
+                label = "CUDA"
+            else:
+                continue
+            link = f"./{urllib.parse.quote(entry)}/{urllib.parse.quote(af)}"
+            links.append((label, link))
+
+        solutions.append({
+            **metadata,
+            "folder": entry,
+            "file": py_file,
+            "links": links,
+            "tags": tags,
+        })
 
     return solutions
 
@@ -130,12 +188,14 @@ def generate_readme(solutions):
     for cat in ordered_cats:
         problems = by_category[cat]
         lines.append(f"### {cat} ({len(problems)})\n")
-        lines.append("| # | Problem | Difficulty | Solution |")
-        lines.append("|---|---------|:----------:|----------|")
+        lines.append("| # | Problem | Difficulty | Tech | Solution |")
+        lines.append("|---|---------|:----------:|:----:|----------|")
 
         for i, s in enumerate(problems, 1):
             badge = DIFFICULTY_BADGES.get(s["difficulty"], s["difficulty"])
-            lines.append(f"| {i} | {s['name']} | {badge} | [Python]({s['link']}) |")
+            tech = ", ".join(s["tags"])
+            solution_links = " ".join(f"[{label}]({link})" for label, link in s["links"])
+            lines.append(f"| {i} | {s['name']} | {badge} | {tech} | {solution_links} |")
 
         lines.append("")
 
