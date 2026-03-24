@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-36-blue) ![Easy](https://img.shields.io/badge/Easy-24-brightgreen) ![Medium](https://img.shields.io/badge/Medium-10-orange) ![Hard](https://img.shields.io/badge/Hard-2-red)
+![Problems Solved](https://img.shields.io/badge/Solved-37-blue) ![Easy](https://img.shields.io/badge/Easy-25-brightgreen) ![Medium](https://img.shields.io/badge/Medium-10-orange) ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 ## Problems by Category
 
@@ -24,26 +24,27 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 12 | Determinant of a 4x4 Matrix using Laplace's Expansion (hard) | ![Hard](https://img.shields.io/badge/-Hard-red) | Python | [Python](./Determinant%20of%20a%204x4%20Matrix%20using%20Laplace%27s%20Expansion%20%28hard%29/Determinant4x4%20MatrixusingLaplace%27sExpansion.py) |
 | 13 | Singular Value Decomposition (SVD) of 2x2 Matrix | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy | [Python](./Singular%20Value%20Decomposition%20%28SVD%29%20of%202x2%20Matrix/SingularValueDecompositionSVDof2x2Matrix.py) |
 
-### Machine Learning (16)
+### Machine Learning (17)
 
 | # | Problem | Difficulty | Tech | Solution |
 |---|---------|:----------:|:----:|----------|
 | 1 | Binary Classification with Logistic Regression | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | PyTorch | [Python](./Binary%20Classification%20with%20Logistic%20Regression/BinaryClassificationLogisticRegression.py) |
 | 2 | Calculate Accuracy Score | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20Accuracy%20Score/CalculateAccuracyScore.py) |
-| 3 | Calculate Mean Absolute Error (MAE) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20Mean%20Absolute%20Error%20%28MAE%29/Calculate%28MAE%29.py) |
-| 4 | Calculate R-squared for Regression Analysis | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20R-squared%20for%20Regression%20Analysis/CalculateRsquaredforRegressionAnalysis.py) |
-| 5 | Calculate Root Mean Square Error (RMSE) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20Root%20Mean%20Square%20Error%20%28RMSE%29/CalculateRMSE.py) |
-| 6 | Generate a Confusion Matrix for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Python | [Python](./Generate%20a%20Confusion%20Matrix%20for%20Binary%20Classification/GenerateConfusionMatrixforBinaryClassification.py) |
-| 7 | Implement F-Score Calculation for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Implement%20F-Score%20Calculation%20for%20Binary%20Classification/Implement%20F-Score%20CalculationforBinaryClassification.py) |
-| 8 | Implement Precision Metric | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Implement%20Precision%20Metric/ImplementPrecisionMetric.py) |
-| 9 | Implement Recall Metric in Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Implement%20Recall%20Metric%20in%20Binary%20Classification/ImplementRecallMetricBinaryClassification.py) |
-| 10 | Linear Regression Using Gradient Descent | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./LinearRegressionUsingGradientDescent/LinearRegressionUsingGradientDescent.py) |
-| 11 | Linear Regression Using Normal Equation | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Linear%20Regression%20Using%20Normal%20Equation/LinearRegressionUsingNormalEquation.py) |
-| 12 | Calculate Performance Metrics for a Classification Model | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Calculate%20Performance%20Metrics%20for%20a%20Classification%20Model/CalculatePerformanceMetricsforaClassificationModel.py) |
-| 13 | Implement Gradient Descent Variants with MSE Loss | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Gradient%20Descent%20Variants%20with%20MSE%20Loss/GradientDescentVariantswithMSELoss.py) |
-| 14 | Implement K-Fold Cross-Validation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20K-Fold%20Cross-Validation/ImplementCrossValidation.py) |
-| 15 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
-| 16 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
+| 3 | Calculate Jaccard Index for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20Jaccard%20Index%20for%20Binary%20Classification/CalculateJaccardIndexBinaryClassification.py) |
+| 4 | Calculate Mean Absolute Error (MAE) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20Mean%20Absolute%20Error%20%28MAE%29/Calculate%28MAE%29.py) |
+| 5 | Calculate R-squared for Regression Analysis | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20R-squared%20for%20Regression%20Analysis/CalculateRsquaredforRegressionAnalysis.py) |
+| 6 | Calculate Root Mean Square Error (RMSE) | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Calculate%20Root%20Mean%20Square%20Error%20%28RMSE%29/CalculateRMSE.py) |
+| 7 | Generate a Confusion Matrix for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Python | [Python](./Generate%20a%20Confusion%20Matrix%20for%20Binary%20Classification/GenerateConfusionMatrixforBinaryClassification.py) |
+| 8 | Implement F-Score Calculation for Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Implement%20F-Score%20Calculation%20for%20Binary%20Classification/Implement%20F-Score%20CalculationforBinaryClassification.py) |
+| 9 | Implement Precision Metric | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Implement%20Precision%20Metric/ImplementPrecisionMetric.py) |
+| 10 | Implement Recall Metric in Binary Classification | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Implement%20Recall%20Metric%20in%20Binary%20Classification/ImplementRecallMetricBinaryClassification.py) |
+| 11 | Linear Regression Using Gradient Descent | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./LinearRegressionUsingGradientDescent/LinearRegressionUsingGradientDescent.py) |
+| 12 | Linear Regression Using Normal Equation | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Linear%20Regression%20Using%20Normal%20Equation/LinearRegressionUsingNormalEquation.py) |
+| 13 | Calculate Performance Metrics for a Classification Model | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Calculate%20Performance%20Metrics%20for%20a%20Classification%20Model/CalculatePerformanceMetricsforaClassificationModel.py) |
+| 14 | Implement Gradient Descent Variants with MSE Loss | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Gradient%20Descent%20Variants%20with%20MSE%20Loss/GradientDescentVariantswithMSELoss.py) |
+| 15 | Implement K-Fold Cross-Validation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20K-Fold%20Cross-Validation/ImplementCrossValidation.py) |
+| 16 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
+| 17 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
 
 ### Deep Learning (3)
 
