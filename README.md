@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-38-blue) ![Easy](https://img.shields.io/badge/Easy-25-brightgreen) ![Medium](https://img.shields.io/badge/Medium-10-orange) ![Hard](https://img.shields.io/badge/Hard-3-red)
+![Problems Solved](https://img.shields.io/badge/Solved-39-blue) ![Easy](https://img.shields.io/badge/Easy-25-brightgreen) ![Medium](https://img.shields.io/badge/Medium-10-orange) ![Hard](https://img.shields.io/badge/Hard-4-red)
 
 ## Problems by Category
 
@@ -24,7 +24,7 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 12 | Determinant of a 4x4 Matrix using Laplace's Expansion (hard) | ![Hard](https://img.shields.io/badge/-Hard-red) | Python | [Python](./Determinant%20of%20a%204x4%20Matrix%20using%20Laplace%27s%20Expansion%20%28hard%29/Determinant4x4%20MatrixusingLaplace%27sExpansion.py) |
 | 13 | Singular Value Decomposition (SVD) of 2x2 Matrix | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy | [Python](./Singular%20Value%20Decomposition%20%28SVD%29%20of%202x2%20Matrix/SingularValueDecompositionSVDof2x2Matrix.py) |
 
-### Machine Learning (18)
+### Machine Learning (19)
 
 | # | Problem | Difficulty | Tech | Solution |
 |---|---------|:----------:|:----:|----------|
@@ -45,7 +45,8 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 15 | Implement K-Fold Cross-Validation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20K-Fold%20Cross-Validation/ImplementCrossValidation.py) |
 | 16 | Implement Lasso Regression using ISTA | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Lasso%20Regression%20using%20ISTA/ImplementLassoRegressionusingISTA.py) |
 | 17 | Principal Component Analysis (PCA) Implementation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Principal%20Component%20Analysis%20%28PCA%29%20Implementation/PrincipalComponentAnalysisPCAImplementation.py) |
-| 18 | Pegasos Kernel SVM Implementation | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy | [Python](./Pegasos%20Kernel%20SVM%20Implementation%20Hard%20Machine%20Learning/PegasosKernelSVMImplementationHardMachineLearning.py) |
+| 18 | Implement AdaBoost Fit Method | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy, math | [Python](./Implement%20AdaBoost%20Fit%20Method/ImplementAdaBoostFitMethod.py) |
+| 19 | Pegasos Kernel SVM Implementation | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy | [Python](./Pegasos%20Kernel%20SVM%20Implementation%20Hard%20Machine%20Learning/PegasosKernelSVMImplementationHardMachineLearning.py) |
 
 ### Deep Learning (3)
 
