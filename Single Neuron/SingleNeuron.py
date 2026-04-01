@@ -16,7 +16,7 @@ For each input vector, the weighted sum is calculated by multiplying each featur
 """
 import math
 
-def single_neuron_model(features: list[list[float]], labels: list[int], weights: list[float], bias: float) -> (list[float], float):
+def single_neuron_model(features: list[list[float]], labels: list[int], weights: list[float], bias: float) -> (list[float], float): # type: ignore
     
     def sigmoid(z: float) -> float:
         return 1 / (1 + math.exp(-z))
