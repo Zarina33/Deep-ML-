@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-43-blue) ![Easy](https://img.shields.io/badge/Easy-28-brightgreen) ![Medium](https://img.shields.io/badge/Medium-11-orange) ![Hard](https://img.shields.io/badge/Hard-4-red)
+![Problems Solved](https://img.shields.io/badge/Solved-45-blue) ![Easy](https://img.shields.io/badge/Easy-29-brightgreen) ![Medium](https://img.shields.io/badge/Medium-12-orange) ![Hard](https://img.shields.io/badge/Hard-4-red)
 
 ## Problems by Category
 
@@ -49,16 +49,18 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 19 | Implement AdaBoost Fit Method | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy, math | [Python](./Implement%20AdaBoost%20Fit%20Method/ImplementAdaBoostFitMethod.py) |
 | 20 | Pegasos Kernel SVM Implementation | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy | [Python](./Pegasos%20Kernel%20SVM%20Implementation%20Hard%20Machine%20Learning/PegasosKernelSVMImplementationHardMachineLearning.py) |
 
-### Deep Learning (6)
+### Deep Learning (8)
 
 | # | Problem | Difficulty | Tech | Solution |
 |---|---------|:----------:|:----:|----------|
 | 1 | Implement ReLU Activation Function | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | Python | [Python](./Implement%20ReLU%20Activation%20Function/ImplementReLU.py) |
 | 2 | Implementation of Log Softmax Function | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Implementation%20of%20Log%20Softmax%20Function/ImplementationofLogSoftmaxFunction.py) |
 | 3 | KL Divergence Between Two Normal Distributions | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./KL%20Divergence%20Between%20Two%20Normal%20Distributions/KLDivergenceBetweenTwoNormalDistribution.py) |
-| 4 | Single Neuron | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | math | [Python](./Single%20Neuron/SingleNeuron.py) |
-| 5 | Softmax Activation Function Implementation | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Softmax%20Activation%20Function%20Implementation/SoftmaxActivationFunctionImplementation.py) |
-| 6 | Implement Adam Optimization Algorithm | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Adam%20Optimization%20Algorithm/ImplementAdamOptimizationAlgorithm%D1%8E.py) |
+| 4 | Sigmoid Activation Function Understanding | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | math | [Python](./Sigmoid%20Activation%20Function%20Understanding/SigmoidActivationFunction.py) |
+| 5 | Single Neuron | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | math | [Python](./Single%20Neuron/SingleNeuron.py) |
+| 6 | Softmax Activation Function Implementation | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Softmax%20Activation%20Function%20Implementation/SoftmaxActivationFunctionImplementation.py) |
+| 7 | Implement Adam Optimization Algorithm | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Adam%20Optimization%20Algorithm/ImplementAdamOptimizationAlgorithm%D1%8E.py) |
+| 8 | Simple Convolutional 2D Layer | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Simple%20Convolutional%202D%20Layer/SimpleConvolutional2DLayer.py) |
 
 ### Probability (3)
 
