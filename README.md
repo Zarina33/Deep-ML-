@@ -65,7 +65,7 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 10 | Implement PReLU Forward and Backward Pass | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20PReLU%20Forward%20and%20Backward%20Pass/ImplementPReLUForwardBackwardPass.py) |
 | 11 | Implementing a Simple RNN | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implementing%20a%20Simple%20RNN/ImplementingSimpleRNN.py) |
 | 12 | Simple Convolutional 2D Layer | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Simple%20Convolutional%202D%20Layer/SimpleConvolutional2DLayer.py) |
-| 13 | Single Neuron with Backpropagation | ![Medium](https://img.shields.io/badge/-Medium-orange) | Python | [Python](./Single%20Neuron%20with%20Backpropagation/ee.py) |
+| 13 | Single Neuron with Backpropagation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Single%20Neuron%20with%20Backpropagation/SingleNeuronwithBackpropagation.py) |
 
 ### Probability (3)
 

@@ -13,3 +13,40 @@ updated_weights = [0.1036, -0.1425], updated_bias = -0.0167, mse_values = [0.303
 Reasoning:
 The neuron receives feature vectors and computes predictions using the sigmoid activation. Based on the predictions and true labels, the gradients of MSE loss with respect to weights and bias are computed and used to update the model parameters across epochs.
 """
+
+import numpy as np
+def train_neuron(features: np.ndarray, labels: np.ndarray, initial_weights: np.ndarray, initial_bias: float, learning_rate: float, epochs: int) -> (np.ndarray, float, list[float]):
+	
+	X = np.array(features)
+	y = np.array(labels)
+	w = np.array(initial_weights,dtype = float)
+	b = float(initial_bias)
+	n = len(y)
+	mse_values = []
+
+	def sigmoid(z):
+		result = 1 / (1 + np.exp(-z))
+		return result
+	
+	for _ in range(epochs):
+		#прямо обучается
+		z = X @ w + b
+		y_hat = sigmoid(z)
+
+		#вычисляем ошибку перед обновлением 
+		mse = np.mean((y_hat - y)**2)
+		mse_values.append(round(mse,4))
+
+		#вычисляем back propagation 
+		error = y_hat - y
+		grad_common = error * y_hat *(1-y_hat)
+		grad_w = (2/n) * (X.T @ grad_common)
+		grad_b = (2/n) * np.sum(grad_common)
+
+
+		#вычисляем графдиентный спуск
+
+		w -=learning_rate * grad_w
+		b -=learning_rate * grad_b
+
+	return(np.round(w,4), round(b,4),mse_values)
