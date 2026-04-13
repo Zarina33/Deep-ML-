@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-50-blue) ![Easy](https://img.shields.io/badge/Easy-30-brightgreen) ![Medium](https://img.shields.io/badge/Medium-16-orange) ![Hard](https://img.shields.io/badge/Hard-4-red)
+![Problems Solved](https://img.shields.io/badge/Solved-51-blue) ![Easy](https://img.shields.io/badge/Easy-30-brightgreen) ![Medium](https://img.shields.io/badge/Medium-16-orange) ![Hard](https://img.shields.io/badge/Hard-5-red)
 
 ## Problems by Category
 
@@ -80,3 +80,9 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | # | Problem | Difficulty | Tech | Solution |
 |---|---------|:----------:|:----:|----------|
 | 1 | Descriptive Statistics Calculator | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) | NumPy | [Python](./Descriptive%20Statistics%20Calculator/DescriptiveStatisticsCalculator.py) |
+
+### NLP (1)
+
+| # | Problem | Difficulty | Tech | Solution |
+|---|---------|:----------:|:----:|----------|
+| 1 | GPT-2 Text Generation | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy | [Python](./GPT-2%20Text%20Generation/GPT2TextGeneration.py) |
