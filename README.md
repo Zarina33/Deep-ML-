@@ -2,7 +2,7 @@
 
 My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platform for practicing ML, deep learning, and math fundamentals through coding challenges.
 
-![Problems Solved](https://img.shields.io/badge/Solved-51-blue) ![Easy](https://img.shields.io/badge/Easy-30-brightgreen) ![Medium](https://img.shields.io/badge/Medium-16-orange) ![Hard](https://img.shields.io/badge/Hard-5-red)
+![Problems Solved](https://img.shields.io/badge/Solved-52-blue) ![Easy](https://img.shields.io/badge/Easy-30-brightgreen) ![Medium](https://img.shields.io/badge/Medium-17-orange) ![Hard](https://img.shields.io/badge/Hard-5-red)
 
 ## Problems by Category
 
@@ -49,7 +49,7 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 19 | Implement AdaBoost Fit Method | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy, math | [Python](./Implement%20AdaBoost%20Fit%20Method/ImplementAdaBoostFitMethod.py) |
 | 20 | Pegasos Kernel SVM Implementation | ![Hard](https://img.shields.io/badge/-Hard-red) | NumPy | [Python](./Pegasos%20Kernel%20SVM%20Implementation%20Hard%20Machine%20Learning/PegasosKernelSVMImplementationHardMachineLearning.py) |
 
-### Deep Learning (13)
+### Deep Learning (14)
 
 | # | Problem | Difficulty | Tech | Solution |
 |---|---------|:----------:|:----:|----------|
@@ -63,9 +63,10 @@ My solutions to problems from [deep-ml.com](https://www.deep-ml.com) — a platf
 | 8 | Implement Adam Optimization Algorithm | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Adam%20Optimization%20Algorithm/ImplementAdamOptimizationAlgorithm%D1%8E.py) |
 | 9 | Implement Long Short-Term Memory (LSTM) Network | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20Long%20Short-Term%20Memory%20%28LSTM%29%20Network/ImplementLongShort-TermMemoryLSTMNetwork.py) |
 | 10 | Implement PReLU Forward and Backward Pass | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implement%20PReLU%20Forward%20and%20Backward%20Pass/ImplementPReLUForwardBackwardPass.py) |
-| 11 | Implementing a Simple RNN | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implementing%20a%20Simple%20RNN/ImplementingSimpleRNN.py) |
-| 12 | Simple Convolutional 2D Layer | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Simple%20Convolutional%202D%20Layer/SimpleConvolutional2DLayer.py) |
-| 13 | Single Neuron with Backpropagation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Single%20Neuron%20with%20Backpropagation/SingleNeuronwithBackpropagation.py) |
+| 11 | Implementing Basic Autograd Operations | ![Medium](https://img.shields.io/badge/-Medium-orange) | Python | [Python](./Implementing%20Basic%20Autograd%20Operations/ImplementingBasicAutogradOperations.py) |
+| 12 | Implementing a Simple RNN | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Implementing%20a%20Simple%20RNN/ImplementingSimpleRNN.py) |
+| 13 | Simple Convolutional 2D Layer | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Simple%20Convolutional%202D%20Layer/SimpleConvolutional2DLayer.py) |
+| 14 | Single Neuron with Backpropagation | ![Medium](https://img.shields.io/badge/-Medium-orange) | NumPy | [Python](./Single%20Neuron%20with%20Backpropagation/SingleNeuronwithBackpropagation.py) |
 
 ### Probability (3)
 
