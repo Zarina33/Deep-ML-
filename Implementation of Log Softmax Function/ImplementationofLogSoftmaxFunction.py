@@ -20,8 +20,10 @@ The log-softmax function is applied to the input array [1, 2, 3]. The output arr
 
 import numpy as np
 
-def log_softmax(x):
-    x = np.array(x, type = float)
-    x_shifted = x - np.max(x)
-    res = x_shifted - np.log(np.sum(np.exp(x)))
-    return np.round(res,4)
+def logsoft(scores):
+    scores = np.array(scores, dtype = float)
+    new_scores = scores - np.max(scores)
+    exp_scores = np.exp(new_scores)
+    log_exp = np.log(np.sum(exp_scores))
+    result = scores - np.max(scores) - log_exp
+    return result

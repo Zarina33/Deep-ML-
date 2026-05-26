@@ -17,11 +17,10 @@ The softmax function converts a list of values into a probability distribution. 
 
 import numpy as np
 
-def softmax(scores):
-    scores = np.array(scores, dtype = float)
-    scores -= np.max(scores)
-
-    exp_scores = np.exp(scores)
-    res = exp_scores / np.sum(exp_scores)
-
-    return [round(float(x), 4) for x in res]
+def softmax_numerical(scores):
+    scores = np.arrays(scores)
+    scores_new = scores - np.max(scores)
+    exp_scores = np.exp(scores_new)
+    soft  = exp_scores / np.sum(exp_scores)
+    for x in soft:
+        return np.round(x)
